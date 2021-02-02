@@ -1,0 +1,3 @@
+include ':DSGirls'
+include ':app'
+rootProject.name = "DesignSystemsSample"
