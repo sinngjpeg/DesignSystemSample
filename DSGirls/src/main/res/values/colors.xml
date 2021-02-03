@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_brand_corporate_blue">#ff004691</color>
+    <color name="color_brand_retail_blue">#ff0026d9</color>
+    <color name="color_primary_blue">#ff0026d9</color>
+    <color name="color_primary_light_blue">#ff5270fe</color>
+    <color name="color_primary_sky_blue">#ff3152ef</color>
+    <color name="color_primary_arctic_blue">#ff99d6ff</color>
+    <color name="color_secondary_dark_blue">#ff002198</color>
+    <color name="color_secondary_yellow">#fffab932</color>
+    <color name="color_secondary_red">#ffeb0028</color>
+    <color name="color_secondary_navy">#ff002e46</color>
+    <color name="color_secondary_green">#ff6dd400</color>
+    <color name="color_secondary_dark_green">#ff00804d</color>
+    <color name="color_neutral_dark_grey">#ff696969</color>
+    <color name="color_neutral_black">#ff000000</color>
+    <color name="color_neutral_light_grey">#fff0f1f2</color>
+    <color name="color_neutral_light_grey_2">#ffE5E5E5</color>
+    <color name="color_neutral_grey">#ffbababa</color>
+    <color name="color_neutral_white">#ffffffff</color>
+    <color name="color_almost_white2">#B3FFFFFF</color>
+    <color name="color_shadow_medium">#12000000</color>
+    <color name="color_shadow_large">#1a000000</color>
+    <color name="color_blue_green">#002E46</color>
+    <color name="color_transparent">#FF000000</color>
+    <color name="color_white_alpha50">#80FFFFFF</color>
+    <color name="color_almost_white">#B2FFFFFF</color>
+    <color name="color_almost_black">#4C000000</color>
+    <color name="color_almost_grey">#4CFFFFFF</color>
+    <color name="color_pink">#ff007f</color>
+    <color name="color_purple">#7d005c</color>
+
+</resources>

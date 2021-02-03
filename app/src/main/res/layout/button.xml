@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <br.com.dsgirls.ButtonDesign
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            app:label="saaasa"
+            app:buttonTypes="blue"
+            app:isOutlined="true"
+            />
+
+        <br.com.dsgirls.ButtonDesign
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            app:buttonTypes="pink"
+            app:isOutlined="true"
+            app:label="Oi Meninas"
+            app:icon=""/>
+
+        <br.com.dsgirls.ButtonDesign
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            app:buttonTypes="pink"
+            app:label="Oi Meninas" />
+
+        <br.com.dsgirls.ButtonDesign
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            app:buttonTypes="red"
+            app:label="Oi Meninas" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
