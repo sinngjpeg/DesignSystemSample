@@ -1,4 +1,4 @@
-package br.com.dsgirls.Button
+package br.com.dsgirls.button
 
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes

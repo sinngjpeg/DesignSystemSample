@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import br.com.dsgirls.Button.ButtonTypes
+import br.com.dsgirls.button.ButtonTypes
 import br.com.dsgirls.utils.ViewStates.disabledState
 import br.com.dsgirls.utils.ViewStates.enabledDisabledStates
 import br.com.dsgirls.utils.ViewStates.enabledState
