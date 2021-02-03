@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_brand_corporate_blue">#ff004691</color>
+    <color name="color_primary_blue">#ff0026d9</color>
+    <color name="color_secondary_dark_blue">#ff002198</color>
+    <color name="color_secondary_red">#ffeb0028</color>
+    <color name="color_neutral_dark_grey">#ff696969</color>
+    <color name="color_neutral_black">#ff000000</color>
+    <color name="color_neutral_grey">#ffbababa</color>
+    <color name="color_neutral_white">#ffffffff</color>
+    <color name="color_blue_green">#002E46</color>
+    <color name="color_transparent">#FF000000</color>
+    <color name="color_pink">#ff007f</color>
+    <color name="color_purple">#7d005c</color>
+
+</resources>
