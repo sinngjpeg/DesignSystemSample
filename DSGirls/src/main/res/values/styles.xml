@@ -14,4 +14,10 @@
         <attr name="isEnabled" format="string"/>
     </declare-styleable>
 
+    <declare-styleable name="CheckBoxDesign">
+        <attr name="checkBoxTypes" format="enum">
+            <enum name="isPurple" value="0"/>
+            <enum name="isBlue" value="1"/>
+        </attr>
+    </declare-styleable>
 </resources>
