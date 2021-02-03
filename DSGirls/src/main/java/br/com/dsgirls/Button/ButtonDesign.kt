@@ -7,44 +7,14 @@ import android.util.AttributeSet
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.annotation.ColorRes
-import androidx.annotation.DrawableRes
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import br.com.dsgirls.ViewStates.disabledState
-import br.com.dsgirls.ViewStates.enabledDisabledStates
-import br.com.dsgirls.ViewStates.enabledState
+import br.com.dsgirls.Button.ButtonTypes
+import br.com.dsgirls.utils.ViewStates.disabledState
+import br.com.dsgirls.utils.ViewStates.enabledDisabledStates
+import br.com.dsgirls.utils.ViewStates.enabledState
 import br.com.dsgirls.utils.getTintedDrawable
 
-enum class ButtonTypes(
-    @ColorRes val mainColor: Int,
-    @DrawableRes val outlinedBgDrawable: Int,
-    @ColorRes val enabledTextColor: Int = R.color.color_neutral_white,
-    @ColorRes val enabledOutlinedTextColor: Int
-) {
-    PINK(
-        mainColor = R.color.color_pink,
-        outlinedBgDrawable = R.drawable.rounded_border_white,
-        enabledTextColor = (R.color.color_neutral_white),
-        enabledOutlinedTextColor = R.color.color_pink
-    ),
-    PURPLE(
-        mainColor = R.color.color_purple,
-        outlinedBgDrawable = R.drawable.rounded_border_green,
-        enabledOutlinedTextColor = R.color.color_purple
-    ),
-    BLUE(
-        mainColor = R.color.color_primary_blue,
-        outlinedBgDrawable = R.drawable.rounded_border_blue,
-        enabledTextColor = R.color.color_neutral_white,
-        enabledOutlinedTextColor = R.color.color_primary_blue
-    ),
-    RED(
-        mainColor = R.color.color_secondary_red,
-        outlinedBgDrawable = R.drawable.rounded_border_red,
-        enabledOutlinedTextColor = R.color.color_secondary_red
-    )
-}
 
 class ButtonDesign @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
@@ -152,8 +122,4 @@ class ButtonDesign @JvmOverloads constructor(
     }
 }
 
-object ViewStates {
-    val enabledState = intArrayOf(android.R.attr.state_enabled)
-    val disabledState = intArrayOf(-android.R.attr.state_enabled)
-    val enabledDisabledStates = arrayOf(enabledState, disabledState)
-}
+
